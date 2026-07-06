@@ -51,12 +51,6 @@ class UserVectorRepository {
             
             for (const user of userVectors) {
 
-                console.log({
-                    userId: user.id,
-                    name: user.name,
-                    embeddingSize: user.embedding.length
-                });
-
                 await client.query(
                     `
                     INSERT INTO user_vectors
