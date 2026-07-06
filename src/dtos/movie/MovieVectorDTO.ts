@@ -1,6 +1,6 @@
 export interface MovieVectorDTO {
 
-    movieId: string;
+    id: string;
 
     title: string;
 
