@@ -1,4 +1,4 @@
-import { database } from "../config/database.js";
+import { database } from "../config/database/database.js";
 class MovieVectorRepository {
     async search(searchVector) {
         const client = await database.connect();
