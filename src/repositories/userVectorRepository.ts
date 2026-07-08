@@ -1,4 +1,4 @@
-import { database } from "../config/database.js";
+import { database } from "../config/database/database.js";
 import type { UserVectorDTO } from "../dtos/user/UserVectorDTO.js";
 
 class UserVectorRepository {

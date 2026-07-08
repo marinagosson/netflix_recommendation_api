@@ -1,4 +1,4 @@
-import { database } from "../config/database.js";
+import { database } from "../config/database/database.js";
 import type { MovieVectorDTO } from "../dtos/movie/MovieVectorDTO.js";
 import type { SearchMovieVectorDTO } from "../dtos/movie/SearchMovieVectorDTO.js";
 
